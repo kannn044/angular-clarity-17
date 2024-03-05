@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "linkgate-management-web:build:production"
+              "buildTarget": "linkgate-management-web:build:production"
             },
             "development": {
-              "browserTarget": "linkgate-management-web:build:development"
+              "buildTarget": "linkgate-management-web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "linkgate-management-web:build"
+            "buildTarget": "linkgate-management-web:build"
           }
         },
         "test": {
